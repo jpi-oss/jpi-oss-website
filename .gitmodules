@@ -40,3 +40,7 @@
 	path = r/darvaza.org/slog
 	url = ../../darvaza-proxy/slog
 	branch = main
+[submodule "r/goshop.dev/headless"]
+	path = r/goshop.dev/headless
+	url = ../../goshop-project/headless
+	branch = main
