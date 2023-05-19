@@ -1,9 +1,42 @@
 [submodule "src/assets"]
 	path = src/assets
 	url = https://github.com/jpi-oss/assets
-  branch = master
+	branch = master
 
 [submodule "src/themes/universal"]
 	path = src/themes/universal
 	url = https://github.com/karasz/hugo-universal-theme
 	branch = master
+
+[submodule "r/darvaza.org/core"]
+	path = r/darvaza.org/core
+	url = ../../darvaza-proxy/core
+	branch = main
+[submodule "r/darvaza.org/resolver"]
+	path = r/darvaza.org/resolver
+	url = ../../darvaza-proxy/resolver
+	branch = master
+[submodule "r/darvaza.org/darvaza"]
+	path = r/darvaza.org/darvaza
+	url = ../../darvaza-proxy/darvaza
+	branch = master
+[submodule "r/darvaza.org/acmefy"]
+	path = r/darvaza.org/acmefy
+	url = ../../darvaza-proxy/acmefy
+	branch = main
+[submodule "r/darvaza.org/gossipcache"]
+	path = r/darvaza.org/gossipcache
+	url = ../../darvaza-proxy/gossipcache
+	branch = main
+[submodule "r/darvaza.org/cache"]
+	path = r/darvaza.org/cache
+	url = ../../darvaza-proxy/cache
+	branch = main
+[submodule "r/darvaza.org/middleware"]
+	path = r/darvaza.org/middleware
+	url = ../../darvaza-proxy/middleware
+	branch = main
+[submodule "r/darvaza.org/slog"]
+	path = r/darvaza.org/slog
+	url = ../../darvaza-proxy/slog
+	branch = main
