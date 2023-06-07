@@ -136,10 +136,11 @@ pluralizelisttitles = false
     logo_small = "img/logo-small.svg"
     contact_url = "/contact"
     address = """<p class="text-uppercase"><strong>JPI Technologies Ltd.</strong>
-        <br>84 Wayland Avenue
-        <br>Brighton
-        <br>BN1 5JN
+        <br>28 Melrose Avenue
+        <br>Portslade
+        <br>BN41 2LS
         <br>England
+        <br>
         <br>
         <strong>United Kingdom</strong>
       </p>
