@@ -1,0 +1,5 @@
+weight: 6
+name: "Slog"
+icon: "fas fa-book-bookmark"
+url: "/slog"
+description: "Opinionated structured log."

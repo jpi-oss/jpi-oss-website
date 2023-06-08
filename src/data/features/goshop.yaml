@@ -1,0 +1,5 @@
+weight: 2
+name: "GoShop"
+icon: "fas fa-shopping-cart"
+url: "/goshop"
+description: "Go Based Webshop."

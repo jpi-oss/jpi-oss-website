@@ -1,0 +1,230 @@
+baseurl = "https://oss.jpi.io/"
+title = "OSS by JPI Technologies"
+theme = "universal"
+languageCode = "en-us"
+# Site language. Available translations in the theme's `/i18n` directory.
+defaultContentLanguage = "en"
+
+# number of words of summarized post content (default 70)
+summaryLength = 70
+
+# Define the number of posts per page
+paginate = 10
+
+# not pluralize title pages by default
+pluralizelisttitles = false
+
+[menu]
+
+
+# Main menu
+[[menu.main]]
+    name       = "Home"
+    identifier = "menu.home"
+    url        = "/"
+    weight     = 1
+
+[[menu.main]]
+    name       = "Projects"
+    identifier = "menu.projects"
+    url        = "/img/template-easy-customize.png"
+    weight     = 2
+
+[[menu.main]]
+    name       = "Darvaza Proxy"
+    url        = "/darvaza-proxy"
+    weight     = 1
+    parent     = "menu.projects"
+    post       = 1
+
+[[menu.main]]
+    name       = "Darvaza Acmefy"
+    url        = "/acmefy"
+    weight     = 4
+    parent     = "menu.projects"
+    post       = 1
+
+[[menu.main]]
+    name       = "Slog"
+    url        = "/slog"
+    weight     = 3
+    parent     = "menu.projects"
+    post       = 1
+
+[[menu.main]]
+    name       = "GoShop"
+    url        = "/goshop"
+    weight     = 2
+    parent     = "menu.projects"
+    post       = 1
+
+[[menu.main]]
+    name       = "Krong"
+    url        = "/krong"
+    weight     = 5
+    parent     = "menu.projects"
+    post       = 1
+
+[[menu.main]]
+    name       = "GossipCache"
+    url        = "/gossipcache"
+    weight     = 6
+    parent     = "menu.projects"
+    post       = 1
+
+[[menu.main]]
+    name       = "About"
+    identifier = "menu.about"
+    url        = "/aboutus"
+    weight     = 3
+
+[[menu.main]]
+    identifier = "contact"
+    name       = "Contact"
+    url        = "/contact"
+    weight     = 4
+
+
+# Top bar social links menu
+
+[[menu.topbar]]
+    weight = 2
+    name = "GitHub"
+    url = "https://github.com/devcows/hugo-universal-theme"
+    pre = "<i class='fab fa-2x fa-github'></i>"
+
+[[menu.topbar]]
+    weight = 5
+    name = "Email"
+    url = "mailto:oss@jpi.io"
+    pre = "<i class='fas fa-2x fa-envelope'></i>"
+
+[params]
+#    viewMorePostLink = "/blog/"
+    author = "JPI Technologies"
+    defaultKeywords = ["JPI", "OSS", "go"]
+#    mainSections = ["blog"]
+    defaultDescription = "OSS projects by JPI Technologies Ltd."
+
+    # Social media
+#    facebook_site = "" # the Facebook handle of your site ('https://www.facebook.com/HANDLE')
+#    twitter_site = "GoHugoIO" # the Twitter handle of your site (without the '@')
+#    default_sharing_image = "img/sharing-default.png"
+
+    # Google Maps widget: If `googleMapsApiKey` is not set, no key will be passed to Google (which likely results in a broken map widget).
+    enableGoogleMaps = false
+    googleMapsApiKey = "AIzaSyAv7Sza8NSp9_l_g8G2vlo0H4ydEPn_2jY"
+
+    latitude = "-12.043333"
+    longitude = "-77.028333"
+
+    # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
+    style = "default"
+
+    about_us = "<p>Doing stuff but better.</p>"
+    copyright = "Copyright (c) 2023, JPI Technologies Ltd."
+
+    # Format dates with Go's time formatting
+    date_format = "January 2, 2006"
+
+    dropdown_mouse_over = false
+
+    disabled_logo = false
+    logo_text = "JPI Technologies"
+
+    logo = "img/logo.svg"
+    logo_small = "img/logo-small.svg"
+    contact_url = "/contact"
+    address = """<p class="text-uppercase"><strong>JPI Technologies Ltd.</strong>
+        <br>28 Melrose Avenue
+        <br>Portslade
+        <br>BN41 2LS
+        <br>England
+        <br>
+        <br>
+        <strong>United Kingdom</strong>
+      </p>
+      """
+
+[permalinks]
+    blog = "/blog/:year/:month/:day/:filename/"
+
+# Enable or disable top bar with social icons
+[params.topbar]
+    enable = true
+    text = """<p class="hidden-sm hidden-xs">Contact us at oss@jpi.io.</p>
+      <p class="hidden-md hidden-lg"><a href="mailto:hello@universal.com" data-animate-hover="pulse"><i class="fas fa-envelope"></i></a>
+      </p>
+      """
+
+# Enable and disable widgets for the right sidebar
+[params.widgets]
+    categories = true
+    tags = true
+    search = true
+
+[params.carouselCustomers]
+    items = 6
+    auto_play = false
+    slide_speed = 2000
+    pagination_speed = 1000
+
+[params.carouselTestimonials]
+    items = 4
+    auto_play = false
+    slide_speed = 2000
+    pagination_speed = 1000
+
+[params.carouselHomepage]
+    # All carousel items are defined in their own files. You can find example items
+    # at 'exampleSite/data/carousel'.
+    # For more information take a look at the README.
+    enable = true
+    auto_play = true
+    slide_speed = 2000
+    pagination_speed = 1000
+
+[params.features]
+    enable = true
+    cols = 3 # Default: 3, Available values 2,3,4,6
+    # All features are defined in their own files. You can find example items
+    # at 'exampleSite/data/features'.
+    # For more information take a look at the README.
+
+[params.testimonials]
+    enable = false
+    # All testimonials are defined in their own files. You can find example items
+    # at 'exampleSite/data/testimonials'.
+    # For more information take a look at the README.
+    title = "Testimonials"
+    subtitle = "We have worked with many clients and we always like to hear they come out from the cooperation happy and satisfied. Have a look what our clients said about us."
+
+[params.see_more]
+    enable = false
+    icon = "far fa-file-alt"
+    title = "Do you want to see more?"
+    subtitle = "We have prepared for you more than 40 different HTML pages, including 5 variations of homepage."
+    link_url = "#"
+    link_text = "Check other homepages"
+
+[params.clients]
+    enable = false
+    # All clients are defined in their own files. You can find example items
+    # at 'exampleSite/data/clients'.
+    # For more information take a look at the README.
+    title = "Our Clients"
+    subtitle = ""
+
+[params.recent_posts]
+    enable = false
+    title = "From our blog"
+    subtitle = "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo."
+    hide_summary = false
+
+[params.footer.recent_posts]
+    enable = false
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  author = "authors"

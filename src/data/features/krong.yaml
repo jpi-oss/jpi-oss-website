@@ -1,0 +1,5 @@
+weight: 3
+name: "Krong"
+icon: "fas fa-dragon"
+url: "/krong"
+description: "The mighty executor."
