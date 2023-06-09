@@ -1,0 +1,4 @@
+[submodule "src/themes/universal"]
+	path = src/themes/universal
+	url = https://github.com/karasz/hugo-universal-theme
+	branch = master
