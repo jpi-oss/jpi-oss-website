@@ -1,4 +1,9 @@
 [submodule "src/assets"]
 	path = src/assets
 	url = https://github.com/jpi-oss/assets
+  branch = master
+
+[submodule "src/themes/universal"]
+	path = src/themes/universal
+	url = https://github.com/karasz/hugo-universal-theme
 	branch = master
